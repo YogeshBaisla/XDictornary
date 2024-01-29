@@ -33,7 +33,7 @@ function App() {
       }} placeholder="Search for word..."/>
       <button onClick={onHandle}>Search</button>
      </div>
-     <div><strong>Defination:</strong></div>
+     <div><strong>Definition:</strong></div>
      <div>{meaning ? <span>{meaning}</span>:<span>Word not found in the dictionary.</span>}</div>
     </div>
   );
