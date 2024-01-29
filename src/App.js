@@ -31,9 +31,7 @@ function App() {
       </div>
       <div>
         <strong>Definition:</strong>
-      </div>
-      <div>
-        <span>{meaning}</span>
+        <div>{meaning}</div>
       </div>
     </div>
   );
