@@ -11,7 +11,7 @@ function App() {
 
   const handleSearch = () => {
     const wordMeaning = dictionary.find(entry =>
-      entry.word.toLowerCase().includes(search.toLowerCase())
+      entry.word.toLowerCase() === (search.toLowerCase())
     );
     const foundMeaning = wordMeaning ? wordMeaning.meaning : "Word not found in the dictionary.";
     setMeaning(foundMeaning);
